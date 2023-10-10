@@ -2,6 +2,8 @@ import os
 import json
 from PIL import Image
 
+# created this code : https://github.com/ivder/LabelMeYoloConverter
+
 def convert(size, box):
     dw = 1./size[0]
     dh = 1./size[1]
@@ -16,7 +18,7 @@ def convert(size, box):
     return (x,y,w,h)
 
 # Configure Paths   
-# 데이터셋에 이미지 파일 넣기
+# 데이터셋에 이미지 파일 넣기 (아래 폴더들을 생성하기 바람)
 mypath = "./dataset/"
 outpath = "./result/"
 json_backup ="./json_backup/"
