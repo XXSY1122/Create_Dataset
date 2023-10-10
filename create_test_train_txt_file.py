@@ -27,7 +27,7 @@ def trainNtestFilesCreater(dataSetPath, mappingPath, train_size=0.80):
 
 
 # 데이터셋 현재 경로
-dataSetPath = r"C:/Users/ksl97/Desktop\dataset/labelme_from_json_to_txt/result"
+dataSetPath = r"C:/Users/user/Desktop\dataset/labelme_from_json_to_txt/result"
 # test.txt train.txt에 기입될 경로 (코랩을 사용할땐 아래처럼 '/content/gdrive/MyDrive/본인폴더/'로 지정함)
 mappingPath = "/content/gdrive/MyDrive/custom_data/images"
 
