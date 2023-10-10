@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # 경로설정
-path = "C:/Users/ksl97/Desktop/crawled"
+path = "C:/Users/user/Desktop/filename" # update this path
 files = os.listdir(path)
 
 # 변경하려는 확장자 리스트
