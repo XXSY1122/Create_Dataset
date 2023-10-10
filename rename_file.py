@@ -4,7 +4,7 @@ import os
 # 이미지 파일 이름이 뒤죽박죽 상태일때 숫자 1.2.3.4.5...순으로 전체 변경해준다. 
 
 # 이미지 파일 경로
-path = "C:/Users/ksl97/Desktop/메로나"
+path = "C:/Users/user/Desktop/메로나"
 
 files = os.listdir(path)
 files.sort()
