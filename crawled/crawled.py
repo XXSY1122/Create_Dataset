@@ -11,7 +11,7 @@ import os
 
 # Initialize WebDriver
 chrome_options = webdriver.ChromeOptions()
-chrome_options.binary = 'C://Users/ksl97/Desktop/dataset/crawled/chromedriver.exe'
+chrome_options.binary = 'C://Users/user/Desktop/dataset/crawled/chromedriver.exe'
 driver = webdriver.Chrome()
 
 # Search for images
@@ -24,7 +24,7 @@ time.sleep(2)
 
 
 # 저장할 파일 경로 설정 (만약 바탕화면 crawled 폴더내부로 설정하면 crawled 폴더 내부에 '메로나 무료나눔'이라는 폴더가 따로 생김)
-save_path = f'C:/Users/ksl97/Desktop/crawled/{query}'
+save_path = f'C:/Users/user/Desktop/crawled/{query}'
 if not os.path.exists(save_path):
     os.mkdir(save_path)
 
