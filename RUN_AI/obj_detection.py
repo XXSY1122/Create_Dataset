@@ -4,7 +4,7 @@ import numpy as np
 # < YOLO를 이용해 실시간 객체 탐지해보는 코드 >
 # 학습된 weights, cfg, custom.names 파일 불러옴
 
-net = cv2.dnn.readNet("yolov3-custom_2000.weights", "yolov3-custom.cfg")
+net = cv2.dnn.readNet("yolov3-tiny-custom_2000.weights", "yolov3-tiny-custom.cfg")
 layer_names = net.getUnconnectedOutLayersNames()
 
 classes = [line.strip() for line in open("custom.names").readlines()]  # 클래스 이름 불러옴
