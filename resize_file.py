@@ -19,7 +19,7 @@ def resize_images(input_dir, output_dir, new_size=(608, 608)):
                 print(f"Error processing {filename}: {str(e)}")
 
 # 사용 예
-input_directory = '/Users/sy/Desktop/Create_Dataset-main/닭다리'  # 원본 이미지가 있는 디렉터리 경로
-output_directory = '/Users/sy/Desktop/Create_Dataset-main/닭다리수정'  # 크기를 변경한 이미지를 저장할 디렉터리 경로
+input_directory = '/Users/sy/Desktop/Create_Dataset/닭다리수정'  # 원본 이미지가 있는 디렉터리 경로
+output_directory = '/Users/sy/Desktop/Create_Dataset/닭다리'  # 크기를 변경한 이미지를 저장할 디렉터리 경로
 
 resize_images(input_directory, output_directory)
