@@ -1,6 +1,5 @@
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 import os
-import scipy
 
 # 경로 설정
 input_path = "/Users/sy/Desktop/Create_Dataset/닭다리완성본"  # Update this path
@@ -15,13 +14,13 @@ datagen = ImageDataGenerator(
     height_shift_range=0.05,  # 높이조정
     shear_range=0.05,  # 왜곡조정 (이부분은 조정을 심하게 하지 않는걸 추천)
     zoom_range=0.05,  # 확대/축소조정
-    horizontal_flip=False,  # 수평뒤집기 ON상태 (원하지 않는다면 False값 대입)
+    horizontal_flip=True,  # 수평뒤집기 ON상태 (원하지 않는다면 False값 대입)
     fill_mode='nearest'  # 채우기 모드를 '가장 가까운'으로 설정 
     # (즉, 확대/축소로 인해 이미지 크기가 변형될때 빈 픽셀공간이 생기면 그 픽셀에 가장 가까운 값에 위치한 색상을 넣음)
 )
 
 files = os.listdir(input_path)
-augment_per_image =  627 // len(files) # 5
+augment_per_image = 1305 // len(files) # 5
 # 원하는 파일수 // 현재파일수 (즉, 이 코드에선 기존 261개의 파일의 5배인 1305개로 늘리게됨)
 
 for file in files:
