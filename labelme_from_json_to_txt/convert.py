@@ -74,6 +74,11 @@ for json_name in json_name_list:
                 bb = convert((image_width, image_height), box)
                 
                 # Write to output file
+
+                # 1. 개인이 모은 이미지, json 번호 변경
+                # 2. json -> txt 변환
+                # 3. 기존 폴더에 추합
+                
                 txt_outfile.write(f"{class_id} {' '.join(map(str, bb))}\n")
     
     os.rename(txt_path, json_backup + json_name)  # move json file to backup folder
