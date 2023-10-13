@@ -11,6 +11,7 @@
 
 
 [YOLO] 내부 filter 값을 변경한다. [YOLO] 바로 아래에 있는 [convolutional] 부분 필터만 값에 맞게 수정한다.
--> 식 :
+- 식 : (classes + 5)*3
+- ex. 클래스가 1라면 18
 
 [YOLO] 내부 classes 값을 변경한다. 학습시킬게 1개면 1으로, 3개면 3으로
