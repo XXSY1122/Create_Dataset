@@ -23,7 +23,9 @@ mypath = "./dataset/"
 outpath = "./result/"
 json_backup ="./json_backup/"
 
-# Define a mapping from label name to integer
+# 메로나는 Class ID = 0 / 닭다리는 Class ID = 1
+# 메로나 = Melona
+# 닭다리 = ChickenLeg
 labels_map = {
     "melona": 0,
     # add other labels if needed
