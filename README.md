@@ -14,9 +14,8 @@
 - resize_file.py : 이미지 크기를 원하는 사이즈로 변경하는 프로그램
 
 ## 파일 검증
-- find_empty_file.py : 아무것도 적혀있지 않은 txt 파일을 찾아내는 프로그램
-<br>
-  (json->txt 변경과정에서 json자체에 문제가 있을 경우 빈 txt가 생성됨)
+- find_empty_file.py : 아무것도 적혀있지 않은 txt 파일을 찾아내는 프로그램<br>
+(json->txt 변경과정에서 json자체에 문제가 있을 경우 빈 txt가 생성됨)
 
 ## JSON 파일을 YOLO를 지원하는 TXT파일로 변경하는 용도
 ### labelme_from_json_to_txt > convert.py
