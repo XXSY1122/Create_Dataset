@@ -25,7 +25,7 @@ labelme에서 작업한 json 파일을 yolo형식에 맞는 text 파일로 수�
 2. 수정완료시 json_backup 폴더에 기존 json이 들어가게됨
 3. 수정완료시 result에서 결과물 파일을 확인할 수 있음.
 
-### EXAMPLE
+### 💌 EXAMPLE
 ### 수정전
 ```
 {
