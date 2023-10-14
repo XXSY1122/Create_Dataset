@@ -11,6 +11,9 @@
 - create_test_train_txt_file.py : train.txt와 test.txt 파일을 생성하는 프로그램 (80:20 비율)
 - rename_file.py : 파일 이름을 모두 순차적인 숫자형태로 변경하는 프로그램 (ex. 1.png)
 
+## 파일 검증
+- find_emptyfile.py : 아무것도 적혀있지 않은 txt 파일을 찾아내는 프로그램
+  (json->txt 변경과정에서 json자체에 문제가 있을 경우 빈 txt가 생성됨)
 
 ## JSON 파일을 YOLO를 지원하는 TXT파일로 변경하는 용도
 ### labelme_from_json_to_txt > convert.py
