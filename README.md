@@ -16,6 +16,8 @@
 ## 파일 검증
 - find_empty_file.py : 아무것도 적혀있지 않은 txt 파일을 찾아내는 프로그램<br>
 (json->txt 변경과정에서 json자체에 문제가 있을 경우 빈 txt가 생성됨)
+- find_unique_files.py : 2개의 폴더 내 파일이름이 겹치는지 확인하는 코드 (모두 겹쳐야하기에)<br>
+(1.png는 있는데 1.txt가 없으면 잘못된 데이터이므로 그것을 확인하기 위해 사용함)
 
 ## JSON 파일을 YOLO를 지원하는 TXT파일로 변경하는 용도
 ### labelme_from_json_to_txt > convert.py
