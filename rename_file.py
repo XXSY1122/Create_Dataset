@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 import cv2
 import shutil
 
-# 파일 이름 변경
-# 이미지와 TXT의 변형없이 개별적으로 숫자별로 정렬하여 SORT
+# 파일 이름 변경 코드
+# 문자형때문에 1.png / 1.txt -> 1.png / 30.txt 으로 바뀌던 문제를 해결한 코드
+# 파일명 모두, 숫자를 기준으로 정렬하여 바꿈
 
 n=2476 # 원하는 첫번째 파일명 (ex. 2476이면 2476.png / 2476.txt 이 시작파일)
 
