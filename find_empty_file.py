@@ -3,8 +3,8 @@ import os
 
 
 # 탐색할 폴더 경로 지정
-folder_path = "C:/Users/ksl97/Downloads/ChickenLeg"
-#C:\Users\ksl97\Downloads\fnd
+folder_path = "C:/Users/user/Downloads/ChickenLeg"
+#C:\Users\user\Downloads\fnd
 
 # 폴더 내의 모든 파일을 가져옴
 all_files = os.listdir(folder_path)
