@@ -4,8 +4,8 @@ import os
 # ex. 1.png / 1.txt or 1.png / none.txt 의 유무를 파악
 
 # 비교 용도의 각각의 폴더 경로를 지정
-path_A = 'c:\\Users\\ksl97\\Downloads\\누가바\\NUGABAR1'
-path_B = 'c:\\Users\\ksl97\\Downloads\\누가바\\NUGABAR1img'
+path_A = 'c:\\Users\\user\\Downloads\\누가바\\NUGABAR1'
+path_B = 'c:\\Users\\user\\Downloads\\누가바\\NUGABAR1img'
 
 
 def find_and_print_unique_files(folderA, folderB):
